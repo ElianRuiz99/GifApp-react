@@ -14,7 +14,7 @@ const GifApp = () => {
     return (
         <>
             <h2>GifApp</h2>
-            <AddCategory />
+            <AddCategory categories={ categories } setCategories={ setCategories } />
             <hr />
             
             <ol>
