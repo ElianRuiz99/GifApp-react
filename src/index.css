@@ -4,7 +4,7 @@
 
 body{
     padding: 60px;
-    background-color: #f1b97a;
+    background-color: #f1d271;
 }
 
 input{
@@ -21,3 +21,37 @@ input:hover{
     box-shadow: 0 3px 6px 0 #20212447;
     border-color: #dfe1e500;
 }
+
+/* Estilos GifGrid */
+.category-name {
+    text-align: center;
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* Fin Estilos GifGrid */
+
+/* Estilos GifGridItem */
+.card {
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #f4a397;
+}
+
+.card p {
+    padding: 5px;
+    text-align: center;
+}
+
+.card img{
+    max-height: 170px;
+}
+/* Fin Estilos GifGridItem */
