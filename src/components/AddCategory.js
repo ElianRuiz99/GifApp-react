@@ -14,7 +14,7 @@ export const AddCategory = ( {categories, setCategories} ) => {
 
         //validacion
         if( inputValue.trim().length > 2 ){
-            setCategories( [...categories, inputValue] );
+            setCategories( [inputValue, ...categories] );
             setInputValue('');
         }  
     }
