@@ -15,9 +15,9 @@ export const GifGrid = ({ category }) => {
 
     return (
         <>
-            <h3 className='category-name'> { category } </h3>
+            <h3 className='category-name animate__animated animate__bounce animate__flipInX'> { category } </h3>
 
-            { loading && <p>Loading</p> }
+            { loading && <p>Loading...</p> }
 
             <div className='card-grid'>
                 {
